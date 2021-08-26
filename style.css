@@ -1,0 +1,27 @@
+body{
+    background-image: url("https://i.postimg.cc/C5kPfmFb/R0f8cc600313e903ac8873f39f08bfed2.jpg");
+}
+
+
+h2 {
+    font-family: 'Rye', cursive;
+    background-color: aqua;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#take-snap:hover {
+    background-color: red;
+}
+
+canvas {
+    animation-name: color-shift;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border:3px solid black;
+}
+@keyframes color-shift{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 25px yellow;}
+}
